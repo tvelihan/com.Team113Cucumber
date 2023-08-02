@@ -87,7 +87,26 @@ public class Proje {
 
 
 
+    // 52 proje
 
+
+    @FindBy(xpath = "//*[text()=' Exam Schedule']")
+    public WebElement ExamScheduleSatır;
+
+    @FindBy(xpath = "//*[text()=' Exam Result']")
+    public WebElement ExamResultSatır;
+
+    @FindBy(xpath = "//*[text()='Exam']")
+    public WebElement ExaminationsExamSutün;
+
+    @FindBy(xpath = "//*[text()='S.No.']")
+    public WebElement ExaminationsSıraNoSutün;
+
+    @FindBy(xpath = "//*[text()='Description']")
+    public WebElement ExaminationsDescriptionSutün;
+
+    @FindBy(xpath = "//*[@class='text-right noExport sorting']")
+    public WebElement ExaminationsActionSutün;
 
 
 
